@@ -64,18 +64,6 @@
       "href": "https://www.discord.gg/qkaTueJkQx"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
-  },
   "footer": {
     "socials": {
       "discord": "https://www.discord.gg/qkaTueJkQx",
