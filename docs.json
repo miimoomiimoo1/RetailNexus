@@ -8,8 +8,8 @@
     "dark": "#B00000"
   },
   "favicon": {
-    "light": "/images/kuva_2026-10-10_014650405.png",
-    "dark": "/images/kuva_2026-10-10_014650405.png"
+    "light": "/images/kuva_2026-10-10_020340637.png",
+    "dark": "/images/kuva_2026-10-10_020340637.png"
   },
   "navigation": {
     "pages": [
@@ -37,8 +37,8 @@
     }
   },
   "logo": {
-    "light": "/images/kuva_2026-10-10_014650405.png",
-    "dark": "/images/kuva_2026-10-10_014650405.png"
+    "light": "/images/kuva_2026-10-10_020340637.png",
+    "dark": "/images/kuva_2026-10-10_020340637.png"
   },
   "navbar": {
     "links": [
@@ -74,7 +74,8 @@
     "library": "fontawesome"
   },
   "background": {
-    "decoration": "gradient"
+    "decoration": "gradient",
+    "image": "/images/kuva_2026-10-10_020325287.png"
   },
   "appearance": {
     "default": "dark"
