@@ -53,12 +53,6 @@
     "dark": "/images/kuva_2026-10-10_020340637.png"
   },
   "navbar": {
-    "links": [
-      {
-        "href": "https://www.discord.gg/qkaTueJkQx",
-        "label": "Discord"
-      }
-    ],
     "primary": {
       "type": "discord",
       "href": "https://www.discord.gg/qkaTueJkQx"
