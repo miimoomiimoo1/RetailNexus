@@ -12,15 +12,6 @@
     "dark": "/images/kuva_2026-10-10_020340637.png"
   },
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
@@ -34,7 +25,42 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "tabs": [
+      {
+        "tab": "Products",
+        "pages": [
+          "retail-pos",
+          "reservation-system",
+          "tormatt-9-rvm",
+          "self-checkout"
+        ]
+      },
+      {
+        "tab": "API",
+        "pages": [
+          "no-api-yet"
+        ]
+      },
+      {
+        "tab": "Terms Of Service",
+        "pages": [
+          "terms-of-service"
+        ]
+      },
+      {
+        "tab": "Documentation",
+        "pages": [
+          "no-documention-yet"
+        ]
+      },
+      {
+        "tab": "Contact Us",
+        "pages": [
+          "contact-us"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/images/kuva_2026-10-10_020340637.png",
@@ -74,8 +100,7 @@
     "library": "fontawesome"
   },
   "background": {
-    "decoration": "gradient",
-    "image": "/images/kuva_2026-10-10_020325287.png"
+    "decoration": "gradient"
   },
   "appearance": {
     "default": "dark"
