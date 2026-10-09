@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "RetailNexus",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#C40000",
+    "light": "#C40000",
+    "dark": "#B00000"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/kuva_2026-10-10_014650405.png",
+    "dark": "/images/kuva_2026-10-10_014650405.png"
+  },
   "navigation": {
     "pages": [
       {
@@ -34,20 +37,19 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/kuva_2026-10-10_014650405.png",
+    "dark": "/images/kuva_2026-10-10_014650405.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "href": "https://www.discord.gg/qkaTueJkQx",
+        "label": "Discord"
       }
     ],
     "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "type": "discord",
+      "href": "https://www.discord.gg/qkaTueJkQx"
     }
   },
   "contextual": {
@@ -64,9 +66,23 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "discord": "https://www.discord.gg/qkaTueJkQx",
+      "website": "https://www.retailnexus.work.gd"
+    }
+  },
+  "icons": {
+    "library": "fontawesome"
+  },
+  "background": {
+    "image": "/images/kuva_2026-10-10_014333671.png",
+    "decoration": "gradient"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "errors": {
+    "404": {
+      "redirect": false
     }
   }
 }
