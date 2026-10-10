@@ -34,9 +34,8 @@
         "tab": "Documentation",
         "anchors": [
           {
-            "anchor": "Product Documentation",
+            "anchor": "Product Manuals",
             "pages": [
-              "product-documentation",
               "reservation-system-2"
             ],
             "icon": "file-alt"
@@ -44,7 +43,6 @@
           {
             "anchor": "API Documentation",
             "pages": [
-              "no-api-yet",
               "reservation-system-api"
             ],
             "icon": "code"
@@ -71,8 +69,7 @@
         "pages": [
           "team"
         ],
-        "icon": "people-group",
-        "hidden": true
+        "icon": "people-group"
       },
       {
         "tab": "Feedback",

@@ -4,6 +4,10 @@ title: "Reservation System API"
 
 On this page, you can see API functions for the Reservation System.
 
+<Note>
+  This is a technical page, and assumes that you are familiar with the Lua coding language.
+</Note>
+
 #### Door API
 
 Door API can used with any doors that has API. Door API configuration can be found in `Reservation Screen > Configuration`
@@ -30,6 +34,8 @@ If you don't want to use Door API, you can leave the functions as they are, havi
 
 Receiving API can be used to make a new reservation, cancel a reservation or start a reservation.
 
+##### New Reservation
+
 ```luau
 ["Reservation Screen"].API:Fire({ -- For making a new reservation
 	Function = "NewRes",
@@ -39,16 +45,48 @@ Receiving API can be used to make a new reservation, cancel a reservation or sta
 	Passcode = nil,
 	WaitingRoom = false
 })
+```
 
+<Card title="What do these mean?" color="#3B82F6" icon="question-circle">
+  `Function` defines what function to fire. In this case, it is set to `"NewRes"` meaning New Reservation.
+
+  `Name` Name of the reservation to create.
+
+  `Start` Start time of the reservation.
+
+  `End` End time of the reservation.
+
+  `Passcode` can be set to a passcode, use `nil` for no passcode.
+
+  `WaitingRoom` set to true if the room is marked as a waiting room for the duration of the reservation.
+</Card>
+
+##### Cancel reservation
+
+```luau
 ["Reservation Screen"].API:Fire({ -- For cancelling a reservation
 	Function = "CancelRes",
 	Name = "New Reservation"
 })
+```
 
+<Card title="What do these mean?" color="#3B82F6" icon="question-circle">
+  `Function` defines what function to fire. In this case it is set to `"CancelRes"` meaning Cancel Reservation.
+
+  `Name` Name of the reservation to cancel.
+</Card>
+
+##### Start Reservation
+
+```luau
 ["Reservation Screen"].API:Fire({ -- For starting a reservation
 	Function = "StartRes",
 	Name = "New Reservation",
 })
 ```
 
-/
+<Card title="What do these mean?" color="#3B82F6" icon="question-circle">
+  `Function` defines what function to fire. In this case it is set to `"StartRes"` meaning Start Reservation.
+
+  `Name` Name of the reservation to start.
+</Card>
