@@ -29,21 +29,16 @@
         ]
       },
       {
-        "tab": "API",
+        "tab": "Documentation",
         "pages": [
-          "no-api-yet"
+          "no-api-yet",
+          "product-documentation"
         ]
       },
       {
         "tab": "Terms Of Service",
         "pages": [
           "terms-of-service"
-        ]
-      },
-      {
-        "tab": "Documentation",
-        "pages": [
-          "no-documention-yet"
         ]
       },
       {
