@@ -30,13 +30,18 @@
       },
       {
         "tab": "Documentation",
-        "pages": [
-          "no-api-yet",
+        "anchors": [
           {
-            "group": "Product Documentation",
+            "anchor": "Product Documentation",
             "pages": [
               "product-documentation",
               "reservation-system-2"
+            ]
+          },
+          {
+            "anchor": "API Documentation",
+            "pages": [
+              "no-api-yet"
             ]
           }
         ]
