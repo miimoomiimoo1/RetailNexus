@@ -52,6 +52,12 @@
         "pages": [
           "team"
         ]
+      },
+      {
+        "tab": "Feedback",
+        "pages": [
+          "feedback"
+        ]
       }
     ]
   },
