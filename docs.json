@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "almond",
   "name": "RetailNexus",
   "colors": {
-    "primary": "#C40000",
-    "light": "#C40000",
-    "dark": "#B00000"
+    "primary": "#1B0098",
+    "light": "#2A05DA",
+    "dark": "#16007D"
   },
   "favicon": {
     "light": "/images/kuva_2026-10-10_020340637.png",
@@ -100,10 +100,10 @@
     "library": "fontawesome"
   },
   "background": {
-    "decoration": "gradient"
+    "decoration": "windows"
   },
   "appearance": {
-    "default": "dark"
+    "default": "system"
   },
   "errors": {
     "404": {
@@ -112,5 +112,6 @@
   },
   "metadata": {
     "timestamp": true
-  }
+  },
+  "description": "RetailNexus Official Website"
 }
