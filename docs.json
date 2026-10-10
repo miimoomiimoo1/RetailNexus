@@ -46,6 +46,12 @@
         "pages": [
           "contact-us"
         ]
+      },
+      {
+        "tab": "Our Team",
+        "pages": [
+          "team"
+        ]
       }
     ]
   },
