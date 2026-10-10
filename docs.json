@@ -17,7 +17,8 @@
         "tab": "Home",
         "pages": [
           "retail-nexus"
-        ]
+        ],
+        "icon": "home"
       },
       {
         "tab": "Products",
@@ -26,7 +27,8 @@
           "reservation-system",
           "tormatt-9-rvm",
           "self-checkout"
-        ]
+        ],
+        "icon": "box-isometric-tape"
       },
       {
         "tab": "Documentation",
@@ -36,39 +38,48 @@
             "pages": [
               "product-documentation",
               "reservation-system-2"
-            ]
+            ],
+            "icon": "file-alt"
           },
           {
             "anchor": "API Documentation",
             "pages": [
-              "no-api-yet"
-            ]
+              "no-api-yet",
+              "reservation-system-api"
+            ],
+            "icon": "code"
           }
-        ]
+        ],
+        "icon": "file-alt"
       },
       {
         "tab": "Terms Of Service",
         "pages": [
           "terms-of-service"
-        ]
+        ],
+        "icon": "file-check"
       },
       {
         "tab": "Links",
         "pages": [
           "contact-us"
-        ]
+        ],
+        "icon": "link"
       },
       {
         "tab": "Our Team",
         "pages": [
           "team"
-        ]
+        ],
+        "icon": "people-group",
+        "hidden": true
       },
       {
         "tab": "Feedback",
         "pages": [
           "feedback"
-        ]
+        ],
+        "icon": "comment-alt-check"
       }
     ]
   },

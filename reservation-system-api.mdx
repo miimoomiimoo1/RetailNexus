@@ -1,0 +1,54 @@
+---
+title: "Reservation System API"
+---
+
+On this page, you can see API functions for the Reservation System.
+
+#### Door API
+
+Door API can used with any doors that has API. Door API configuration can be found in `Reservation Screen > Configuration`
+
+Door API can be used to lock or unlock doors. Example of Door API:<br />
+
+```luau
+API = {
+		
+		DoorLock = function()
+			workspace.Door.API:Fire("Lock") -- Will fire a Lock command to a door
+		end,
+		
+		DoorUnlock = function()
+			workspace.Door.API:Fire("Unlock") -- Will fire an Unlock command to a door
+		end,
+		
+	},
+```
+
+If you don't want to use Door API, you can leave the functions as they are, having `return false` as the function.
+
+#### Receiving API
+
+Receiving API can be used to make a new reservation, cancel a reservation or start a reservation.
+
+```luau
+["Reservation Screen"].API:Fire({ -- For making a new reservation
+	Function = "NewRes",
+	Name = "New Reservation",
+	Start = "09:00",
+	End = "10:00",
+	Passcode = nil,
+	WaitingRoom = false
+})
+
+["Reservation Screen"].API:Fire({ -- For cancelling a reservation
+	Function = "CancelRes",
+	Name = "New Reservation"
+})
+
+["Reservation Screen"].API:Fire({ -- For starting a reservation
+	Function = "StartRes",
+	Name = "New Reservation",
+})
+```
+
+/
