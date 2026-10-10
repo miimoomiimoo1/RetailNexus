@@ -1,0 +1,143 @@
+---
+title: "Reservation System"
+---
+
+In this manual, you can see how to setup the reservation system, install it and configuring it.
+
+#### Importing the file to Robox Studio
+
+<Steps>
+  <Step title="Step 1">
+    Download the product file from the discord server. There's a channel named "Reservation System" under the "Products" folder, where you can download the product file.
+  </Step>
+  <Step title="Step 2">
+    Import the file to Roblox Studio by dragging and dropping the file to your experience
+  </Step>
+  <Step title="Step 3">
+    Ungroup the model "Reservation System | UNGROUP"
+  </Step>
+</Steps>
+
+#### Configuring the master settings of the system
+
+Here you can configure the master settings of the system. Go to `RN | Reservation System > Configuration` to configure the system.
+
+##### Configurations
+
+<AccordionGroup>
+  <Accordion title="`CheckInTimeout`">
+    Changes the timeout for check-in after the reservation starts in minutes. Example: if  set to 10, you have to check-in to the room within 10 minutes of the reservation starting. The reservation is automatically cancelled after this timeout ends. Default parameter: 10
+  </Accordion>
+
+  <Accordion title="`MaxBookingTime`">
+    Changes the maximum time of a reservation in minutes. Example: if `MaxBookingTime` is set to 60, the maximum time for a booking is 60 minutes. Default parameter: 60
+  </Accordion>
+
+  <Accordion title="`MaxTimeBeforeBooking`">
+    Changes the maximum time in minutes before a reservation can be made. Example: if set to 30, the maximum time you can make a reservation in advance is 30 minutes. Default parameter: 30
+  </Accordion>
+
+  <Accordion title="`Colors`">
+    With this table, you can change different screen and side LED colors for different scenarios. Default parameters:<br />`Available = Color3.fromRGB(80, 160, 100),`
+
+    `		Busy = Color3.fromRGB(180, 70, 70),`
+
+    `		CheckIn = Color3.fromRGB(200, 140, 50),`
+
+    `		Offline = Color3.fromRGB(100, 100, 100)`
+  </Accordion>
+</AccordionGroup>
+
+#### Configuring a Reservation Screen's settings
+
+Here you can configure each individual Reservation Screen's settings. Go to `RN | Reservation System > Reservation Screen > Configuration`
+
+<AccordionGroup>
+  <Accordion title="`RoomName`">
+    Changes the name that will be displayed on the screen.
+  </Accordion>
+
+  <Accordion title="`MaxPeople`">
+    Changes the maximum number of people that can fit in the room.
+  </Accordion>
+</AccordionGroup>
+
+### Using the system
+
+Here you can see how you can use the system.
+
+#### Room Available
+
+When the room is available, you can see the upcoming reservations and schedule a new reservation. To schedule a new reservation, press "Reserve" to open the reservation menu.
+
+<img
+  src="/images/RSAvailable.png"
+  alt="RS Available"
+  title="RS Available"
+  style={{ width:"67%" }}
+/>
+
+After pressing "Reserve" this menu will come up on the screen. Here you can make a new reservation.
+
+<img
+  src="/images/RSMakeReservation.png"
+  alt="RS Make Reservation"
+  title="RS Make Reservation"
+  style={{ width:"67%" }}
+/>
+
+Use the up/down arrows above and below the numbers to change them. The left number is the time that the reservation starts. The right number is the time that the reservation ends.
+
+Click on the "New Reservation" text to open the on-screen keyboard where you can change the reservation name. 
+
+You can toggle the "Require Meeting Passcode" if you want there to be a password required when you check-in to the reservation. If Meeting Passcode is toggled, you can click on the "Passcode" field to change the Passcode for check-in. The Passcode is by default randomly generated if you don't modify it.
+
+Click on the "Waiting Room" toggle if you want the reservation room to be a waiting room for the time of the reservation.
+
+Click "Reserve" to complete the reservation. The screen will show a confirmation text before returning to the home screen. If there's a problem with any of the fields in the reservation, the screen will show a notification that the field is filled in incorrectly.
+
+#### Checking in to a reservation
+
+When it is time for a reservation, the screen's and side LED's colors will turn orange or the set color in settings and the button on the screen will change to "Check-in" indicating that you can now check-in to the room. If you do not check-in within the set time in settings, the reservation will be automatically cancelled.
+
+<img
+  src="/images/RSCheck-in.png"
+  alt="RS Check In"
+  title="RS Check In"
+  style={{ width:"67%" }}
+/>
+
+Click "Check-in" to check-in to your reservation. If the reservation has a passcode, the screen will show you a text field where you are required to input the passcode in to.
+
+#### Room Busy
+
+When the room is currently busy, the screen and side LEDs will be red or the set color in settings. When the room is busy, you can release the room early pressing "Release Room" or make a new reservation by pressing "Reserve"
+
+<img
+  src="/images/RSBusy.png"
+  alt="RS Busy"
+  title="RS Busy"
+  style={{ width:"67%" }}
+/>
+
+When the reservation ends, the room will automatically be released, and the reservation will be deleted.
+
+#### Deleting a reservation
+
+If you want to delete a reservation that you no longer need, press the gear icon in the top-right corner of the screen to open a menu where you can remove reservations.
+
+<img
+  src="/images/RSAvailableSettings.png"
+  alt="RS Available Settings"
+  title="RS Available Settings"
+  style={{ width:"67%" }}
+/>
+
+After pressing the gear icon, it will open this menu where you can click the "X" on a reservation to delete it. If the reservation has a passcode, you need to enter the passcode before you can delete the reservation. After deleting reservations, press "Save" to save changes. If you want to cancel deleting a reservation, press cancel.
+
+<img
+  src="/images/RSDeleteReservation.png"
+  alt="RS Delete Reservation"
+  title="RS Delete Reservation"
+  style={{ width:"67%" }}
+/>

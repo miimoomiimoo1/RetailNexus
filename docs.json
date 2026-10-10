@@ -32,7 +32,13 @@
         "tab": "Documentation",
         "pages": [
           "no-api-yet",
-          "product-documentation"
+          {
+            "group": "Product Documentation",
+            "pages": [
+              "product-documentation",
+              "reservation-system-2"
+            ]
+          }
         ]
       },
       {
