@@ -8,8 +8,8 @@
     "dark": "#16007D"
   },
   "favicon": {
-    "light": "/images/kuva_2026-10-10_020340637.png",
-    "dark": "/images/kuva_2026-10-10_020340637.png"
+    "light": "/images/image(2).png",
+    "dark": "/images/image(1).png"
   },
   "navigation": {
     "tabs": [
@@ -81,8 +81,8 @@
     ]
   },
   "logo": {
-    "light": "/images/kuva_2026-10-10_020340637.png",
-    "dark": "/images/kuva_2026-10-10_020340637.png"
+    "light": "/images/image(2).png",
+    "dark": "/images/image(1).png"
   },
   "navbar": {
     "primary": {
@@ -113,5 +113,10 @@
   "metadata": {
     "timestamp": true
   },
-  "description": "RetailNexus Official Website"
+  "description": "RetailNexus Official Website",
+  "styling": {
+    "codeblocks": {
+      "theme": "nord"
+    }
+  }
 }
