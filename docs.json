@@ -70,13 +70,6 @@
           "team"
         ],
         "icon": "people-group"
-      },
-      {
-        "tab": "Feedback",
-        "pages": [
-          "feedback"
-        ],
-        "icon": "comment-alt-check"
       }
     ]
   },
