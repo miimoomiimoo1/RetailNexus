@@ -111,5 +111,8 @@
     "codeblocks": {
       "theme": "nord"
     }
+  },
+  "fonts": {
+    "family": "Inter"
   }
 }
