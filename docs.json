@@ -114,5 +114,9 @@
   },
   "fonts": {
     "family": "Inter"
+  },
+  "thumbnails": {
+    "appearance": "dark",
+    "background": "/images/2.png"
   }
 }
