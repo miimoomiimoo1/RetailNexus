@@ -77,7 +77,8 @@
           "public-relations",
           "pr-anoucments",
           "public-relations-team"
-        ]
+        ],
+        "icon": "bullhorn"
       }
     ]
   },
