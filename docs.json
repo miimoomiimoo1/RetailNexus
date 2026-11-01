@@ -51,7 +51,7 @@
         "icon": "file-alt"
       },
       {
-        "tab": "Terms Of Service",
+        "tab": "Leagal",
         "pages": [
           "terms-of-service"
         ],
@@ -70,6 +70,14 @@
           "team"
         ],
         "icon": "people-group"
+      },
+      {
+        "tab": "Public Relations",
+        "pages": [
+          "public-relations",
+          "pr-anoucments",
+          "public-relations-team"
+        ]
       }
     ]
   },
